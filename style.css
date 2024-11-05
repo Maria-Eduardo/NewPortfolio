@@ -686,7 +686,7 @@ footer{
         width: 100vw;
         margin: auto;
     }
-    .marquee-row{
+    .marquee-row{  
         flex-direction: row;
         margin: auto;
     }
