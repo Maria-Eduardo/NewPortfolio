@@ -403,6 +403,7 @@ span{
     cursor: pointer;
     padding: 5px;
     max-width: 50%;
+   
 }
 .row img{
     width:100%;
@@ -424,7 +425,7 @@ span{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0 40px;
+    padding: 0 30px;
     transition: height 0.5s;
 }
 .layer h5{
@@ -586,12 +587,15 @@ footer{
         padding: 1rem 3%;
     }
 }
-@media/*(max-width:895px)*/(min-width:350px) and (max-width:895px){
+@media/*(max-width:895px)*/(min-width:300px) and (max-width:895px){
     html{
         font-size: 45%;
     }
     #menu-icon{
         display: block;
+    }
+    section{
+        min-height: auto;
     }
     .navbar{
         position: absolute;
@@ -652,8 +656,6 @@ footer{
         margin-top:-40rem ;
      }*/
 
-/*} 
-@media(max-width:450px){*/
     
     .About{
         flex-direction: column;
@@ -673,10 +675,13 @@ footer{
         font-size: 1rem;
        
     }
-    
-    .skill{
-        min-height: 100vh;
+    .service-list {
+        justify-content: center;
     }
+    
+   /* .skill{
+        min-height: 100vh;
+    }*/
     .marquee-container{
         width: 100vw;
         margin: auto;
@@ -685,14 +690,39 @@ footer{
         flex-direction: row;
         margin: auto;
     }
-    .main-text{
+   /* .main-text{
         margin-top:-40rem ;
-    }
+    }*/
     .portfolio-content{
         padding-top: 2rem;
         margin: 0 5rem;
 
     }
+      
+.layer h5{
+    color: var(--bg-color);
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    overflow: hidden;
+    /*display: none;*/
+}
+.layer i{
+    color: var(--main-color);
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: #ededed;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.layer p{
+    display: none;
+}
+
     .contact{
        display: flex;
        flex-direction: column;
@@ -718,7 +748,7 @@ footer{
         margin: auto;
       }
 }
-@media(max-width:450px){
+/*@media(max-width:450px){
 
     .logo{
         font-size: 2rem;
@@ -786,4 +816,4 @@ footer{
         margin: auto;
       }
 
-}
+}*/    
